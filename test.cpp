@@ -99,8 +99,8 @@ void plot_data(FILE *gp,std::vector< std::vector<double> > &points,vector<int> &
     
   fprintf(gp,"reset\n");
   if(is_save){
-	fprintf(gp,"set terminal postscript eps enhanced color\n");
-	fprintf(gp,"set output \"output.eps\"\n");
+	fprintf(gp,"set terminal png\n");
+	fprintf(gp,"set output \"output.png\"\n");
   }
   fprintf(gp,"set mouse\n");
   // fprintf(gp,"set size square\n");
