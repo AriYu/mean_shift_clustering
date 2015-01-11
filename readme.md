@@ -7,7 +7,7 @@ $ git clone
 $ mkdir bin && cd bin && cmake .. && make && cd .. && ./test
 ```
 ## だいたいこんな感じ
-![clustering](./output.eps)
+![clustering](./output.png)
 
 ## 参考
 - [colorcle「平均変位法」](http://d.hatena.ne.jp/colorcle/20091120/1258729102)
